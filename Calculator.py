@@ -17,8 +17,6 @@ def button_click(number):
 def button_clear():
     e.delete(0,END)
 
-
-
 def add():
     first_number=e.get()
     global f_num
@@ -71,10 +69,6 @@ def button_Equal():
         e.insert(0, f_num / int(second_number))
 
 
-
-
-
-
 #Make Buttons
 button1=Button(root,text="1",padx=15,pady=15,borderwidth=3,command=lambda: button_click(1))
 button2=Button(root,text="2",padx=15,pady=15,borderwidth=3,command=lambda: button_click(2))
@@ -93,9 +87,6 @@ button_add=Button(root,text="+",padx=15,pady=15,borderwidth=5,command=add)
 button_subtract=Button(root,text="-",padx=16,pady=15,borderwidth=5,command=sub)
 button_multiply=Button(root,text="x",padx=16,pady=15,borderwidth=5,command=mult)
 button_division=Button(root,text="÷",padx=14,pady=15,borderwidth=5,command=div)
-
-
-
 
 
 #Place Buttons
@@ -117,7 +108,4 @@ button_subtract.place(x=290,y=140)
 button_multiply.place(x=290,y=200)
 button_division.place(x=290,y=260)
 
-
-
 root.mainloop()
-
