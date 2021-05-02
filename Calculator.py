@@ -155,9 +155,6 @@ def euler_no():
     e.insert(0, (float)(eul))
 
 
-
-
-
 def button_Equal():
     second_number = e.get()
     e.delete(0,END)
