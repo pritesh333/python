@@ -3,7 +3,7 @@ import requests
 url = "https://corona-virus-world-and-india-data.p.rapidapi.com/api_india"
 
 headers = {
-    'x-rapidapi-key': "3b6b9c60b2mshef89cf1e6eaa609p1835d5jsn6f3ccbfcf3a9",
+    'x-rapidapi-key': "api key",
     'x-rapidapi-host': "corona-virus-world-and-india-data.p.rapidapi.com"
     }
 
