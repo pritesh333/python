@@ -35,7 +35,7 @@ e3.place(x=250,y=90)
 url = "https://currency-exchange.p.rapidapi.com/exchange"
 
 headers = {
-    'x-rapidapi-key': "3b6b9c60b2mshef89cf1e6eaa609p1835d5jsn6f3ccbfcf3a9",
+    'x-rapidapi-key': "api key",
     'x-rapidapi-host': "currency-exchange.p.rapidapi.com"
     }
 
